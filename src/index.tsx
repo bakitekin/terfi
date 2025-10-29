@@ -10,7 +10,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="bg-muted-light min-h-screen">
+      <App />
+    </div>
   </React.StrictMode>
 );
 
